@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1>Practice Survey Form Format</h1>
+
+    <!-- create form -->
+    <form id="form">
+
+        <!-- name -->
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Name
+            </label>
+        <!-- input text -->
+            <input id="name" type="text" placeholder="Enter your name" />
+        </div>
+
+        <!-- email -->
+        <div class="form-control">
+            <label for="email" id="label-email">
+                Email
+            </label>
+        <!-- input text -->
+            <input id="email" type="text" placeholder="Enter your email" />
+        </div>
+
+        <!-- age -->
+        <div class="form-control">
+            <label for="age" id="label-age">
+                Age
+            </label>
+        <!-- input text -->
+            <input id="age" type="text" placeholder="Enter your age" />
+        </div>
+
+        <!-- role -->
+        <div class="form-control">
+            <label for="role" id="label-role">
+                Which option best describes you?
+            </label>
+
+            <!-- dropdown -->
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">Professional</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <!-- Describe -->
+        <div class="form-control">
+            <label for="mood">Describe Online Coding Bootcamp
+                <small>(Check all that apply)</small>
+            </label>
+
+            <!-- checkboxes -->
+            <label for="1">
+                <input type="checkbox" name="inpt" >Easy
+            </label>
+            <label for="2">
+                <input type="checkbox" name="inpt" >Used to it
+            </label>
+            <label for="3">
+                <input type="checkbox" name="inpt" >Moderate
+            </label>
+            <label for="4">
+                <input type="checkbox" name="inpt" >Hard
+            </label>
+            <label for="5">
+                <input type="checkbox" name="inpt" >GGWP
+            </label>
+        </div>
+
+                <!-- rating -->
+        <div class="form-control">
+            <label for="rating">
+                Rate the survey form
+            </label>
+
+            <!-- tick bullet boxes -->
+            <label for="star-1">
+                <input type="radio" id="star-1" name="rating"/>
+                1
+            </label>
+            <label for="star-2">
+                <input type="radio" id="star-2" name="rating"/>
+                2
+            </label>
+            <label for="star-3">
+                <input type="radio" id="star-3" name="rating"/>
+                3
+            </label>
+            <label for="star-4">
+                <input type="radio" id="star-4" name="rating"/>
+                4
+            </label>
+            <label for="star-5">
+                <input type="radio" id="star-5" name="rating"/>
+                5
+            </label>
+        </div>
+
+        <!-- comments -->
+        <div class="form-control">
+            <label for="comment">
+                Any comments or suggestions :
+            </label>
+
+            <!-- comment boxes -->
+            <textarea name="comment" id="comment" cols="20" rows="5" placeholder="Enter your comment here"></textarea>
+        </div>
+
+        <!-- button to submit -->
+        <div class="button-submit">
+        <button type="submit" value="submit">Submit</button>
+        </div>
+
+    </form>
+    
+</body>
+</html>

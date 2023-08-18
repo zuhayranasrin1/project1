@@ -1,0 +1,29 @@
+/* styling body element  */
+
+body {
+    background-color: oklch(79.5% 0.118 270.4 / 87.5%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+form {
+    border: 2px solid black;
+    background-color: pink;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-control {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.form-control  label {
+    display: block;
+    margin-top: 10px;
+}
